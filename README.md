@@ -1,6 +1,6 @@
 Este repositório contém exemplos e exercícios práticos para avançar na orientação a objetos (OO) em Python e aprender a consumir APIs RESTful. O objetivo é proporcionar uma compreensão mais profunda dos conceitos de OO e como integrá-los em projetos que consomem dados de APIs externas.
 
-⚪ Conceitos Abordados
+⚪ **Conceitos Abordados**
 
 • Orientação a Objetos (OO):
 
@@ -16,15 +16,15 @@ Este repositório contém exemplos e exercícios práticos para avançar na orie
 
 • Métodos Mágicos
 
-Consumo de APIs:
+**Consumo de APIs:**
 
-Requisições HTTP com requests
+• Requisições HTTP com requests
 
-Autenticação e autorização (ex. OAuth)
+• Autenticação e autorização (ex. OAuth)
 
-Manipulação de dados JSON
+• Manipulação de dados JSON
 
-Tratamento de erros em requisições
+• Tratamento de erros em requisições
 
 ⚫ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
@@ -47,7 +47,7 @@ Instale as dependências necessárias:
 
 ```pip install -r requirements.txt```
 
-*Exemplos*
+**Exemplos**
 
 Classes e Herança
 Neste exemplo, você aprenderá a criar classes base e derivadas, explorando a reutilização de código através da herança.
@@ -92,7 +92,7 @@ else:
     print(f"Erro ao fazer requisição: {response.status_code}")
 ```
 
-*Como Contribuir*
+**Como Contribuir**
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
