@@ -3,22 +3,35 @@ Este repositório contém exemplos e exercícios práticos para avançar na orie
 ⚪ Conceitos Abordados
 
 • Orientação a Objetos (OO):
+
 • Classes e Objetos
+
 • Herança
+
 • Encapsulamento
+
 • Abstração
+
 • Polimorfismo
+
 • Métodos Mágicos
+
 Consumo de APIs:
+
 Requisições HTTP com requests
+
 Autenticação e autorização (ex. OAuth)
+
 Manipulação de dados JSON
+
 Tratamento de erros em requisições
 
 ⚫ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 Python 3.x
+
 pip (gerenciador de pacotes Python)
+
 Além disso, é recomendado ter conhecimento básico de Python e familiaridade com conceitos de orientação a objetos.
 
 *Instalação*
