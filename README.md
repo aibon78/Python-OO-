@@ -84,7 +84,11 @@ else:
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ➊.Faça um fork deste repositório.
+
 ➋.Crie uma nova branch: git checkout -b minha-feature.
+
 ➌.Faça suas alterações e commit: git commit -m 'Minha nova feature'.
+
 ➍.Envie para a branch original: git push origin minha-feature.
+
 ➎.Abra um pull request.
