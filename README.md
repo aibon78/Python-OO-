@@ -49,7 +49,7 @@ Instale as dependências necessárias:
 
 **Exemplos**
 
-Classes e Herança
+Classes e Herança:
 Neste exemplo, você aprenderá a criar classes base e derivadas, explorando a reutilização de código através da herança.
 ```
 class Animal:
@@ -72,13 +72,13 @@ cat = Gato("Mia")
 print(dog.emitir_som())  # Saída: Au Au!
 print(cat.emitir_som())  # Saída: Miau!
 ```
-⚪ Encapsulamento e Abstração
+⚪ ***Encapsulamento e Abstração:***
  ↪︎ Aprenda a encapsular dados e a utilizar a abstração para criar interfaces simples e eficazes.
 
-⚫ Polimorfismo
+⚫ ***Polimorfismo:***
  ↪︎ Veja como implementar polimorfismo para permitir que diferentes classes implementem métodos de maneiras variadas.
 
-⚪Manipulação de APIs RESTful
+⚪***Manipulação de APIs RESTful:***
  ↪︎ Aprenda a fazer requisições GET, POST, PUT, DELETE e a manipular as respostas das APIs.
 
 ```
@@ -92,7 +92,7 @@ else:
     print(f"Erro ao fazer requisição: {response.status_code}")
 ```
 
-**Como Contribuir**
+****Como Contribuir****
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
