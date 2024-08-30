@@ -48,7 +48,7 @@ Instale as dependências necessárias:
 ```pip install -r requirements.txt```
 
 **Exemplos**
-
+inscryption achievement
 Classes e Herança:
 Neste exemplo, você aprenderá a criar classes base e derivadas, explorando a reutilização de código através da herança.
 ```
