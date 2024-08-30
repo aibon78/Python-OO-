@@ -5,10 +5,17 @@ app = FastAPI()
 
 @app.get('/api/hello')
 def hello_world():
+    '''
+    Endpoint que exibe uma mensagem incrivel no mundo da programação!
+    '''
     return {'Hello':'Wold'}
 
 @app.get('api/restaurante/M')
 def get_restaurante(restaurante: str = Query(None)):
+    '''
+    Endpoint para ver os cardapios dos restaurantes
+    
+    '''
     url = 'https://guilhermeonrails.github.io/api-restaurantes/restaurantes.json'
     response = requests.get(url)
     
@@ -18,18 +25,16 @@ def get_restaurante(restaurante: str = Query(None)):
         if restaurante is None:
             return {'Dados':dados_json}
         
-        dados_restaurante=[]
+        dados_restaurante = []
         for item in dados_json:
             if item['Company'] == restaurante:
-            dados_restaurante.append({
-                "item": item['Item'],
-                "price": item['price'],
-                "description": item['description'],
-                
-                
-            })      
+                dados_restaurante.append({
+                    "item": item['Item'],
+                    "price": item['price'],
+                    "description": item['description']
+        })
             
             
         return {'Restaurante':restaurante,'Cardapio':dados_restaurante}
-    else:
+    else: 
         return {'Erro':f'{response.status_code} - {response.text}'}
