@@ -105,3 +105,5 @@ Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-s
 ➍.Envie para a branch original: git push origin minha-feature.
 
 ➎.Abra um pull request.
+
+Projeto Feito para entendimento pessoal
